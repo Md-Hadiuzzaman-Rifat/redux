@@ -28,6 +28,10 @@
   color: #61dafb;
 }
 
+.counter {
+  padding: 20px 50px;
+}
+
 @keyframes App-logo-spin {
   from {
     transform: rotate(0deg);
@@ -35,4 +39,14 @@
   to {
     transform: rotate(360deg);
   }
+}
+.counter {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+}
+.compo {
+  padding: 20px 40px;
+  border: 1px solid red;
+  width: 30%;
 }
